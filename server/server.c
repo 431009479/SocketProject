@@ -7,6 +7,7 @@
 
 #include "head.h"
 #include "tcp_server.h"
+#include "common.h"
 #define MAXCLIENT 150
 
 struct Client {
@@ -66,6 +67,7 @@ void *work(void *arg) {
 
 int main(int argc, char **argv) {
     int port, server_listen;
+
     if (argc != 2) {
         fprintf(stderr, "Usage: %s port!\n", argv[0]);
         return 1;

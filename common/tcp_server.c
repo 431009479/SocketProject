@@ -7,7 +7,9 @@
 
 #include "head.h"
 int socket_create(int port) {
-    int server_listen;
+    fd_set rfds;
+    struct timeval tv;
+    int server_listen, retval;
     if ((server_listen = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         return -1;
     }
@@ -35,6 +37,14 @@ int socket_create(int port) {
     if (listen(server_listen, 20) < 0){
         return -1;
     }
+  /*  FD_ZERO(&rfds);
+    FD_SET(server_listen, &rfds);
+    tv.tv_sec = 5;
+    tv.tv_usec = 0;
+    retval = select(server_listen + 1, &rfds, NULL, NULL, &tv);
+    if(retval < 0){
+        return -1;
+    }*/
     return server_listen;
 }
 
