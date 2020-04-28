@@ -1,8 +1,8 @@
 /*************************************************************************
 	> File Name: common.h
-	> Author:fangsong
-	> Mail: 
-	> Created Time: 2020年03月29日 星期日 22时34分19秒
+	> Author: suyelu
+	> Mail: suyelu@haizeix.com
+	> Created Time: Sat 28 Mar 2020 08:43:27 PM CST
  ************************************************************************/
 
 #ifndef _COMMON_H

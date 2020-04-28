@@ -1,12 +1,12 @@
 /*************************************************************************
-	> File Name: head.h
-	> Author:fangsong
-	> Mail: 
-	> Created Time: 2020年03月29日 星期日 22时33分32秒
+	> File Name: ../common/head.h
+	> Author: suyelu
+	> Mail: suyelu@haizeix.com
+	> Created Time: 六  3/28 14:23:19 2020
  ************************************************************************/
 
-#ifndef _HEAD_H
-#define _HEAD_H
+#ifndef HEAD_H
+#define HEAD_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -22,4 +22,5 @@
 #include <sys/time.h>
 #include <poll.h>
 #include <sys/select.h>
+#include <errno.h>
 #endif

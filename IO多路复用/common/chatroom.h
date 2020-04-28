@@ -1,12 +1,13 @@
 /*************************************************************************
 	> File Name: chatroom.h
-	> Author:fangsong
-	> Mail: 
-	> Created Time: 2020年03月29日 星期日 23时29分24秒
+	> Author: suyelu
+	> Mail: suyelu@haizeix.com
+	> Created Time: 日  3/29 16:26:37 2020
  ************************************************************************/
 
 #ifndef _CHATROOM_H
 #define _CHATROOM_H
+
 #include "head.h"
 
 struct Msg {
@@ -41,5 +42,4 @@ struct RecvMsg chat_recv(int fd) {
 
 
 #define MAX_CLIENT 512
-
 #endif

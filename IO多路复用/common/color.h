@@ -1,12 +1,13 @@
 /*************************************************************************
 	> File Name: color.h
-	> Author:fangsong
-	> Mail: 
-	> Created Time: 2020年03月29日 星期日 23时42分16秒
+	> Author: suyelu
+	> Mail: suyelu@haizeix.com
+	> Created Time: 日  3/29 18:51:28 2020
  ************************************************************************/
 
 #ifndef _COLOR_H
 #define _COLOR_H
+
 #define NONE "\033[0m"
 #define BLACK "\033[0;30m"
 #define L_BLACK "\033[1;30m"
