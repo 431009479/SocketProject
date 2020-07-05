@@ -190,6 +190,7 @@ void drawgame(){
         sprintf(info, "You get %d, Total %d !", 100, score);
         gotoxy_puts(3, Y + 4, info);
     }
+    return ;
 }
 
 #endif

@@ -1,1 +1,0 @@
-gcc server.c ../common/common.c ../common/udp_server.c ../common/udp_epoll.c ../common/udp_client.c -lcurses -lpthread -D _D
